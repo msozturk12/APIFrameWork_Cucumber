@@ -1,16 +1,12 @@
 package Pojo;
 
-import java.util.List;
+import lombok.Data;
 
+import java.util.List;
+@Data
 public class Orders {
 
      private List<OrderDetail> orders;
 
-    public List<OrderDetail> getOrders() {
-        return orders;
-    }
 
-    public void setOrders(List<OrderDetail> orders) {
-        this.orders = orders;
-    }
 }
